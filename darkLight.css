@@ -4,15 +4,15 @@
 }
 
 body {
-    background: var(--white);
     --text__color: var(--black);
     --background : var(--white);
+    background: var(--background);
 }
 
 body.dark {
-    background: var(--black);
     --text__color: var(--white);
     --background : var(--black);
+    background: var(--background);
 }
 
 input[type="checkbox"] {
